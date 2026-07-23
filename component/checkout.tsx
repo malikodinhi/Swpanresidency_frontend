@@ -95,8 +95,8 @@ export default function GuestCheckout() {
   const [remarks, setRemarks] = useState("");
   const [discount, setDiscount] = useState<string>("0");
   const [amountPaid, setAmountPaid] = useState<string>("");
-  const[gst,setgst]=useState<string>("0");
-   const[grand_total,setgrand_total]=useState<string>("0");
+ // const[gst,setgst]=useState<string>("0");
+  // const[grand_total,setgrand_total]=useState<string>("0");
 
   useEffect(() => {
     setCheckoutDate(new Date().toISOString().split("T")[0]);
