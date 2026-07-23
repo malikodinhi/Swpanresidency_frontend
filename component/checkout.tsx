@@ -62,7 +62,7 @@ interface ReceiptPayload {
   financial_breakdown: {
     base_daily_rent: number;
     subtotal: number;
-    
+    gst:number;
     advance_paid: number;
     balance_paid: number;
     total_amount_charged: number;
