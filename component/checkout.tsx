@@ -66,6 +66,7 @@ interface ReceiptPayload {
     advance_paid: number;
     balance_paid: number;
     total_amount_charged: number;
+    grand_total: number;
     payment_mode: string;
   };
   remarks: string;
